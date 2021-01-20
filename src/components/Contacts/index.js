@@ -1,9 +1,12 @@
 import React from 'react';
 import style from './contacts.module.css'
+import PageWrapper from '../pagewrapper'
 
 function Contacts() {
     return(
-        <div>Contacts</div>
+        <PageWrapper>
+            <div>Contacts</div>
+        </PageWrapper>
     )
 }
 

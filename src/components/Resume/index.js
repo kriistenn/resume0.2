@@ -1,9 +1,13 @@
 import { func } from 'prop-types'
 import React from 'react'
+import PageWrapper from '../pagewrapper'
+
 
 function Resume() {
     return(
-        <div>Resume</div>
+        <PageWrapper>
+            <div>Resume</div>
+        </PageWrapper>
     )
 }
 

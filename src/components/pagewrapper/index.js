@@ -1,9 +1,14 @@
 import React from 'react'
+import Nav from '../Nav'
+import style from './pagewrapper.module.css'
 
 
-function PageWrapper() {
+function PageWrapper( {children} ) {
     return(
-        <div>PageWrapper</div>
+        <div className={style.page}>
+            <Nav/>
+            {children}
+        </div>
     )
 }
 

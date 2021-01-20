@@ -1,10 +1,12 @@
 import { func } from 'prop-types'
 import React from 'react'
-
+import PageWrapper from '../pagewrapper'
 
 function Portfolio() {
     return(
-        <div>Portfolio</div>
+        <PageWrapper>
+            <div>Portfolio</div>
+        </PageWrapper>
     )
 }
 

@@ -1,0 +1,15 @@
+.icon {
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.icon:hover {
+    fill: var(--active-link);
+    transition: 1s;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+}
