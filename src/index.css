@@ -7,7 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,400;1,500&display=swap');
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a { 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+} 
+
+:root {
+  --color: #333;
+  --active-link:  #48dac6;
+  --icon-mobile:  #b1b0b0;
+  --icon-mobile-hover: #999191;
+}
+
+h2,
+p,
+h5,
+h3,
+h4
+{
+    margin: 0;
 }
